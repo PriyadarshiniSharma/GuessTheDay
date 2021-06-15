@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizQuestionsActivity"
+    android:id="@+id/relLayout"
+    android:orientation="horizontal"
+    android:background = "#E6E6FA"
+    >
+
+
+    <TextView
+        android:id="@+id/date_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp"
+        android:text="00 00 0000"
+        android:textColor="#363A43"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/increment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="46dp"
+        android:paddingRight="10dp"
+        android:text="0"
+        android:textStyle="normal"
+        android:textColor="#363A43"
+        android:textSize="45sp" />
+
+
+    <TextView
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="69dp"
+        android:textStyle="bold"
+        android:text="SCORE:"
+        android:textColor="#363A43"
+        android:textSize="45sp" />
+
+    <Button
+        android:id="@+id/btn_opt4"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="250dp"
+        android:layout_alignParentRight="true"
+        android:background="@color/design_default_color_primary_dark"
+        android:text="Option 4"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"></Button>
+
+    <Button
+        android:id="@+id/btn_opt3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="250dp"
+        android:background="@color/design_default_color_primary_dark"
+        android:text="Option 3"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"></Button>
+
+    <Button
+        android:id="@+id/btn_opt2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:layout_alignParentRight="true"
+        android:background="@color/design_default_color_primary_dark"
+        android:text="Option 2"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"></Button>
+
+    <Button
+        android:id="@+id/btn_opt1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:background="@color/design_default_color_primary_dark"
+        android:text="Option 1"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"></Button>
+
+
+</RelativeLayout>
